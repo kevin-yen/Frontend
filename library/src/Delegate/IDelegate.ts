@@ -13,14 +13,6 @@ import { MessageInstanceState, MessageAuthResponse } from "../WebSockets/Message
 */
 export interface IDelegate {
 
-	// placeholders for overlays 
-	currentOverlay: IOverlay;
-	connectOverlay: IActionOverlay;
-	playOverlay: IActionOverlay;
-	disconnectOverlay: IActionOverlay;
-	afkOverlay: IAfkOverlay;
-	infoOverlay: ITextOverlay;
-	errorOverlay: ITextOverlay;
 	showActionOrErrorOnDisconnect: boolean;
 
 	/**
